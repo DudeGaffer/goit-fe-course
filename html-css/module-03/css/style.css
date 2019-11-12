@@ -80,16 +80,15 @@ body {
 }
 
 .main-list {
-  margin-bottom: 52px;
   list-style: none;
   margin: 0;
   padding: 0;
   font-size: 0;
+  margin-bottom: 50px;
 }
 
 .main-list-item {
   margin: 0;
-  margin-bottom: 130px;
   display: inline-block;
   width: 420px;
 }
@@ -98,8 +97,8 @@ body {
   margin-right: 60px;
 }
 
-.main-list-item:nth-last-child(-n + 2){
-  margin-bottom: 50px;
+.main-list-item:not(:nth-last-child(-n + 2)){
+ margin-bottom: 130px;
 }
 
 .main-list-item h2 {
