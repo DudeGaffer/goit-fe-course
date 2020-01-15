@@ -6,7 +6,7 @@
 
 @media (min-width: 748px) {
   .container {
-    width: 748px;
+    width: 728px;
   }
 
   .page-header {
@@ -51,7 +51,7 @@
 
 @media (min-width: 942px) {
   .container {
-    width: 942px;
+    width: 922px;
   }
 
   .page-nav{
@@ -60,5 +60,6 @@
 
   .partner-list{
     width: 100%;
+    flex-wrap: nowrap;
   }
 }
