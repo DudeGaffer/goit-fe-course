@@ -1,0 +1,37 @@
+@media (min-width: 576px) {
+}
+
+@media (max-width: 768px) {
+  .title-description {
+    width: 80%;
+  }
+
+  .wraper-bg {
+    height: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wraper-bg {
+    height: 700px;
+  }
+
+  .title {
+    font-size: 52px;
+  }
+
+  .title-description {
+    font-size: 24px;
+    padding-top: 40px;
+  }
+
+  .title-bth-find {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
