@@ -292,27 +292,27 @@ a.underline:focus:after {
   top: 15px;
 }
 
-.icon-photography::before {
+.services-list__item--icon-photography::before {
   background-image: url(../img/icons/services/icon-alarm.svg);
 }
 
-.icon-web-design::before {
+.services-list__item--icon-web-design::before {
   background-image: url(../img/icons/services/icon-graph.svg);
 }
 
-.icon-creativiry::before {
+.services-list__item--icon-creativiry::before {
   background-image: url(../img/icons/services/icon-computer.svg);
 }
 
-.icon-seo::before {
+.services-list__item--icon-seo::before {
   background-image: url(../img/icons/services/icon-book.svg);
 }
 
-.icon-css-thml::before {
+.services-list__item--icon-css-thml::before {
   background-image: url(../img/icons/services/icon-home.svg);
 }
 
-.icon-digital::before {
+.services-list__item--icon-digital::before {
   background-image: url(../img/icons/services/icon-image.svg);
 }
 
@@ -429,7 +429,7 @@ a.underline:focus:after {
   flex: 0 0 382px;
 }
 
-.team-list__card--name {
+.team-list__name {
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
@@ -438,7 +438,7 @@ a.underline:focus:after {
   padding: 0;
 }
 
-.team-list__card--occupation {
+.team-list__occupation {
   font-family: "Roboto", sans-serif;
   font-style: italic;
   margin: 0;
