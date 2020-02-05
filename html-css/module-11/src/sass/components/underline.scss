@@ -1,0 +1,18 @@
+.underline::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0%;
+  background-color: $accent-color;
+  -webkit-transition: width 200ms linear;
+  -o-transition: width 200ms linear;
+  transition: width 200ms linear;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.underline:hover:after,
+a.underline:focus:after {
+  width: 100%;
+}

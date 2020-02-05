@@ -1,0 +1,23 @@
+.button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header__button {
+  border-style: solid;
+  border-width: 3px;
+  border-color: $primaty-white-color;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  color: $primaty-white-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  width: 164px;
+  height: 44px;
+  display: block;
+  margin: auto;
+}

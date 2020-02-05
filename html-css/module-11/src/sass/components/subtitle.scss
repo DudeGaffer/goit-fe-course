@@ -1,0 +1,22 @@
+.subtitle {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  font-weight: 400;
+  font-family: "Kaushan Script";
+}
+
+.header__subtitle {
+  font-size: 72px;
+  color: $primaty-white-color;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.section__subtitle {
+  display: block;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 12px;
+}

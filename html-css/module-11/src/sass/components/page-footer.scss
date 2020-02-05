@@ -1,0 +1,62 @@
+.page-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-top: 1px solid $secondary-dark-color;
+  height: 62px;
+}
+
+.page-footer__copyright {
+  font-size: 14px;
+  line-height: 17px;
+  color: $primaty-dark-color;
+}
+
+.page-footer__link {
+  @extend %link;
+  color: $secondary-white-color;
+}
+
+.form-subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-subscribe__your-email {
+  border-style: solid;
+  border-width: 1px;
+  border-color: $border-button;
+  background-color: $primaty-white-color;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0;
+  width: 230px;
+  height: 40px;
+  padding: 5px;
+}
+
+.form-subscribe__button {
+  border: none;
+  margin: 0;
+  padding: 11px 29px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  background-color: $secondary-accent-color;
+  color: $primaty-white-color;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $secondary-white-color;
+  }
+}
